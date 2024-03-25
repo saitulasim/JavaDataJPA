@@ -1,0 +1,5 @@
+package com.sathya.ormEx.repository;
+
+public interface ProductRepository {
+
+}

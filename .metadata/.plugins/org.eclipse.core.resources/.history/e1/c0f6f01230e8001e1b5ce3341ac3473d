@@ -1,0 +1,23 @@
+package com.sathya.orm.mapper;
+
+import java.time.LocalDateTime;
+
+import org.springframework.stereotype.Component;
+
+import com.sathya.orm.entity.Person;
+import com.sathya.orm.model.PersonDetails;
+
+@Component
+public class PersonMapper {
+public Person modelToEntityConversion(PersonDetails personDetails) {
+	Person person = new Person();
+person.setFirstName(personDetails.getFirstName());
+person.setLastName(personDetails.getLastName());
+person.setEmail(personDetails.getEmail());
+person.setAge(personDetails.getAge());
+person.setCreateAt(LocalDateTime.now());
+person.setCreateBy(System.getProperty("user.name"));
+	return person;
+	
+}
+}

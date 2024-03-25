@@ -1,0 +1,15 @@
+spring:
+    database:
+        url: jdbc:h2:mem:testdb
+        driverClassName: org.h2.Driver
+        username: sa
+        password: saitulasi
+    jpa:
+        show-sql: true
+    h2:
+        console:
+             enabled: true  
+             
+             
+server:
+    port: 8008               

@@ -1,0 +1,9 @@
+package com.sathya.ormEx.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.sathya.ormEx.entity.Product;
+
+public interface ProductRepository  extends JpaRepository<Product, Integer>{
+
+}

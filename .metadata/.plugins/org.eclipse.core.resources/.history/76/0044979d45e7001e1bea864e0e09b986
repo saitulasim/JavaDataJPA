@@ -1,0 +1,8 @@
+spring.application.name=SpringDataJPA-1
+spring.datasource.url = jdbc:h2:mem:testdb
+spring.datasource.driverClassName = org.h2.Driver
+spring.datasource.username = sa
+spring.datasource.password = 
+server.port = 8003
+spring.h2.console.enabled=true
+spring.jpa.show-sql=true

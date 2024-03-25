@@ -1,0 +1,5 @@
+package com.sathya.ormEx.mapper;
+
+public class ProductClient {
+
+}

@@ -1,0 +1,14 @@
+package com.sathya.ormEx.mapper;
+
+import org.springframework.stereotype.Component;
+
+import com.sathya.ormEx.model.ProductDetails;
+
+@Component
+public class ProductMapper {
+public ProductMapper modelToEntityConversion(ProductDetails productDetails)
+{
+	Product product = new Product();
+	
+}
+}
