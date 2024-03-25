@@ -1,6 +1,0 @@
-spring.application.name=SpringBootJPA
-spring.datasource.url =jdbc:h2:mem:saitulasi
-spring.datasource.driverClassName = org.h2.Driver
-spring.datasource.username = sa
-spring.datasource.password = saitulasi
-server.port = 1212
